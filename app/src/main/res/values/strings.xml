@@ -1,13 +1,14 @@
 <resources>
     <string name="app_name">BeerAdvisor</string>
-    <string name="button1Text">Button1</string>
+    <string name="button1Text">Odszukaj piwo.</string>
     <string name="find_beer">Odszukaj piwo</string>
-    <string name="brand">Producent piwa</string>
-    <string name="beer_colors">Beer colours</string>
-    <string-array name="beer_colors"/>
-        <item1>jasne</item1>
-        <item2>bursztynowe</item2>
-        <item3>brązowe</item3>
-        <item4>ciemne</item4>
-    />
+    <string name="brands">Odnajdź fun:</string>
+
+    <string-array name="beer_colors">
+        <item>jasne</item>
+        <item>bursztynowe</item>
+        <item>brązowe</item>
+        <item>ciemne</item>
+    </string-array>
+
 </resources>

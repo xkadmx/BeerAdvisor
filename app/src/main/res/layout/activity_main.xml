@@ -16,14 +16,14 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        android:text="Hello World!" />
+        android:text="@string/brands" />
 
     <Button
         android:id="@+id/find_beer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/brands"
-
+        android:onClick="onClickFindBeer"
         android:layout_marginStart="20dp"
         android:layout_marginTop="42dp"
         android:layout_alignStart="@+id/color"
@@ -39,6 +39,6 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:entries="@array/beer_colors"
-        android:gravity="center_horizontal"”@+array/"/>
+        android:gravity="center_horizontal"/>
 
 </RelativeLayout>

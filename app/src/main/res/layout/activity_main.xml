@@ -5,10 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/brands"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -18,23 +19,26 @@
         android:text="Hello World!" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/find_beer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
+        android:layout_below="@+id/brands"
+
         android:layout_marginStart="20dp"
         android:layout_marginTop="42dp"
+        android:layout_alignStart="@+id/color"
         android:text="@string/button1Text" />
 
     <Spinner
         android:id="@+id/color"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@id/textView1"
+        android:layout_alignStart="@id/brands"
         android:layout_marginStart="90dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        android:gravity="center_horizontal" />
+        android:entries="@array/beer_colors"
+        android:gravity="center_horizontal"”@+array/"/>
 
 </RelativeLayout>

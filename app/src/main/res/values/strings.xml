@@ -4,7 +4,7 @@
     <string name="find_beer">Odszukaj piwo</string>
     <string name="brand">Producent piwa</string>
     <string name="beer_colors">Beer colours</string>
-    <string-array name=”beer_colors”>
+    <string-array name="beer_colors"/>
         <item1>jasne</item1>
         <item2>bursztynowe</item2>
         <item3>brązowe</item3>

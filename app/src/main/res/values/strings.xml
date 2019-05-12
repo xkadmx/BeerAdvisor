@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BeerAdvisor</string>
+    <string name="button1Text">Button1</string>
 </resources>

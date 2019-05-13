@@ -41,25 +41,4 @@
         android:entries="@array/beer_colors"
         android:gravity="center_horizontal" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/brands"
-        android:layout_centerHorizontal="true"
-        android:text="@string/the_genius_of_the_crowd"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView"
-        android:layout_centerHorizontal="true"
-        android:scrollbarAlwaysDrawVerticalTrack="true"
-        android:scrollbarStyle="outsideOverlay"
-        android:scrollHorizontally="true"
-        android:text="@string/bukowski"
-        android:verticalScrollbarPosition="right" />
-
 </RelativeLayout>

@@ -5,8 +5,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Spinner;
 import android.widget.TextView;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
+    private BeerExpert expert = new BeerExpert();
 
 
 
@@ -22,10 +24,20 @@ public class MainActivity extends AppCompatActivity {
         Spinner color = findViewById(R.id.color);
         String beerType = String.valueOf(color.getSelectedItem());
 
-        brands.setText(beerType);
+        List<String> brandsList = expert.getBrands(beerType);
+        StringBuilder brandsFormatted = new StringBuilder();
+        for (String brand : brandsList) {
+            brandsFormatted.append(brand).append("\n");
+        }
+        brands.setText(brandsFormatted);
+    }
+
+
+
+
+
 
 
 
 
     }
-}

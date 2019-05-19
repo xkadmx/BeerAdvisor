@@ -53,6 +53,7 @@ like a tiger
 like hemlock
 
 their finest art </string>
+    <string name="th">image</string>
     <string-array name="beer_colors">
         <item>jasne</item>
         <item>bursztynowe</item>

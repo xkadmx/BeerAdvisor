@@ -41,4 +41,13 @@
         android:entries="@array/beer_colors"
         android:gravity="center_horizontal" />
 
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/brands"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/th"
+        android:contentDescription="@string/th" />
+
 </RelativeLayout>
